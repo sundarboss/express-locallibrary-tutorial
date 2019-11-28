@@ -5,6 +5,8 @@ var async = require('async');
 const { body,validationResult } = require('express-validator/check');
 const { sanitizeBody } = require('express-validator/filter');
 
+//This is an imporant section in the project
+
 
 //Display list of all authors
 exports.author_list = function(req, res, next) {
